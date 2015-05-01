@@ -1,5 +1,5 @@
 ifeq ($(BUILD_KERNEL),false)
-ifeq ($(filter-out amami aries castor eagle flamingo honami leo scorpion seagull sirius tianchi tianchi_dsds togari,$(TARGET_DEVICE)),)
+ifeq ($(filter-out amami aries castor eagle flamingo honami leo scorpion seagull shinano sirius tianchi tianchi_dsds togari,$(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 
